@@ -12,7 +12,7 @@ class ApiFeatures {
               $options: "i",
             },
           }
-        : {};
+        : { };
   
       this.query = this.query.find({ ...keyword });
       return this;
